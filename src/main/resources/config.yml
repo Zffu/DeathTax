@@ -1,0 +1,27 @@
+# Death Tax Config
+
+# The amount of balance the player has to pay when they die
+death-tax: 1
+
+# The banker's name
+banker-name: "Steve"
+
+# Should split beetween the killer and the banker
+should-split: true
+
+# The percentage of the original amount the killer will recieve (1 = 100%)
+killer-split-percentage: 0
+
+# The percentage of the original amount the banker will recieve (1 = 100%)
+banker-split-percentage: 0
+
+# The message the person who died will receive
+# Placeholders:
+# - %coins% the Amount of coins lost
+died-notification: "§c§lDEATH! §r§eYou lost %coins% coins!"
+
+# The message the person who get coins will receive
+# Placeholders
+# - %coins% the Amount of coins gained
+# - %name% the name of the player who died
+gain-notification: "§a§lCOIN GAIN! §r§e%name% died and gave you %coins% coins!"

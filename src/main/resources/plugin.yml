@@ -1,0 +1,4 @@
+name: DeathTax
+version: '${project.version}'
+main: net.zffu.deathtax.DeathTaxPlugin
+api-version: '1.20'
